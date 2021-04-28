@@ -1,0 +1,18 @@
+{
+  "restore.stream.Output/Audio.media.role:Notification": { "mute": false, "volumes": [ 1.000000 ], "channels": [ "MONO" ] },
+  "restore.stream.Output/Audio.application.name:Firefox": { "volume": 1.000000, "mute": false, "volumes": [ 0.000000, 0.000000 ], "channels": [ "FL", "FR" ], "target-node": "pulseeffects_sink" },
+  "restore.stream.Output/Audio.media.role:Music": { "volume": 1.000000, "mute": false, "volumes": [ 0.999954, 0.999954 ], "channels": [ "FL", "FR" ], "target-node": "pulseeffects_sink" },
+  "restore.stream.Output/Audio.application.name:speech-dispatcher-dummy": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000 ], "channels": [ "MONO" ] },
+  "restore.stream.Output/Audio.application.name:Chromium": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ], "target-node": "pulseeffects_sink" },
+  "restore.stream.Input/Audio.application.name:cava": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ], "target-node": "pulseeffects_sink" },
+  "restore.stream.Audio/Sink.node.name:pulseeffects_sink": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Audio/Source/Virtual.node.name:pulseeffects_source": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Input/Audio.node.name:pulseeffects_soe": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.node.name:pulseeffects_soe": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "UNK", "UNK" ] },
+  "restore.stream.Input/Audio.application.name:PulseAudio hangerőszabályzó": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Input/Audio.node.name:pulseeffects_sie": { "volume": 1.000000, "mute": false, "volumes": [ 0.930188, 0.930188 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.node.name:pulseeffects_sie": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "UNK", "UNK" ] },
+  "restore.stream.Output/Audio.application.name:PulseEffectsCalibration": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "UNK", "UNK" ] },
+  "restore.stream.Input/Audio.application.name:PulseEffectsCalibration": { "volume": 1.000000, "mute": false, "volumes": [ 1.000000, 1.000000 ], "channels": [ "FL", "FR" ] },
+  "restore.stream.Output/Audio.application.name:Nightly": { "volume": 1.000000, "mute": false, "volumes": [ 0.000000, 0.000000 ], "channels": [ "FL", "FR" ] }
+}

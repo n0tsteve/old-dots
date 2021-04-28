@@ -1,0 +1,20 @@
+[2021-04-21 18:09:00.709] [exthost] [info] extension host started
+[2021-04-21 18:09:00.737] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch {"startup":true,"extensionId":{"value":"vscode.debug-auto-launch","_lower":"vscode.debug-auto-launch"},"activationEvent":"*"}
+[2021-04-21 18:09:00.738] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-04-21 18:09:00.769] [exthost] [info] ExtensionService#_doActivateExtension vscode.git {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-21 18:09:00.769] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/git/dist/main
+[2021-04-21 18:09:00.882] [exthost] [info] ExtensionService#_doActivateExtension zhuangtongfa.material-theme {"startup":true,"extensionId":{"value":"zhuangtongfa.material-theme","_lower":"zhuangtongfa.material-theme"},"activationEvent":"*"}
+[2021-04-21 18:09:00.882] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/steve/.vscode-oss/extensions/zhuangtongfa.material-theme-3.10.13/out/extension.js
+[2021-04-21 18:09:01.959] [exthost] [info] ExtensionService#_doActivateExtension vscode.github {"startup":true,"extensionId":{"value":"vscode.github","_lower":"vscode.github"},"activationEvent":"*"}
+[2021-04-21 18:09:01.959] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/github/dist/extension.js
+[2021-04-21 18:09:01.999] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug {"startup":false,"extensionId":{"value":"ms-vscode.js-debug","_lower":"ms-vscode.js-debug"},"activationEvent":"onCommand:extension.js-debug.clearAutoAttachVariables"}
+[2021-04-21 18:09:02.000] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-04-21 18:09:02.425] [exthost] [info] eager extensions activated
+[2021-04-21 18:09:02.438] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet {"startup":false,"extensionId":{"value":"vscode.emmet","_lower":"vscode.emmet"},"activationEvent":"onStartupFinished"}
+[2021-04-21 18:09:02.439] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-04-21 18:09:02.581] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict {"startup":false,"extensionId":{"value":"vscode.merge-conflict","_lower":"vscode.merge-conflict"},"activationEvent":"onStartupFinished"}
+[2021-04-21 18:09:02.581] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-04-21 18:09:02.612] [exthost] [info] ExtensionService#_doActivateExtension vscode.testing-editor-contributions {"startup":false,"extensionId":{"value":"vscode.testing-editor-contributions","_lower":"vscode.testing-editor-contributions"},"activationEvent":"onStartupFinished"}
+[2021-04-21 18:09:02.613] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/vscodium-bin/resources/app/extensions/testing-editor-contributions/dist/extension.js
+[2021-04-21 18:09:13.748] [exthost] [info] extension host terminating: received terminate message from renderer
+[2021-04-21 18:09:14.758] [exthost] [info] exiting with code 0

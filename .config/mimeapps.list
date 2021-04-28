@@ -1,0 +1,24 @@
+[Added Associations]
+text/html=VSCodium.desktop;userapp-Nightly-YN1R20.desktop;
+application/json=vim.desktop;
+x-scheme-handler/http=userapp-Nightly-YN1R20.desktop;
+x-scheme-handler/https=userapp-Nightly-YN1R20.desktop;
+x-scheme-handler/chrome=userapp-Nightly-YN1R20.desktop;
+application/x-extension-htm=userapp-Nightly-YN1R20.desktop;
+application/x-extension-html=userapp-Nightly-YN1R20.desktop;
+application/x-extension-shtml=userapp-Nightly-YN1R20.desktop;
+application/xhtml+xml=userapp-Nightly-YN1R20.desktop;
+application/x-extension-xhtml=userapp-Nightly-YN1R20.desktop;
+application/x-extension-xht=userapp-Nightly-YN1R20.desktop;
+
+[Default Applications]
+x-scheme-handler/http=userapp-Nightly-YN1R20.desktop
+x-scheme-handler/https=userapp-Nightly-YN1R20.desktop
+x-scheme-handler/chrome=userapp-Nightly-YN1R20.desktop
+text/html=userapp-Nightly-YN1R20.desktop
+application/x-extension-htm=userapp-Nightly-YN1R20.desktop
+application/x-extension-html=userapp-Nightly-YN1R20.desktop
+application/x-extension-shtml=userapp-Nightly-YN1R20.desktop
+application/xhtml+xml=userapp-Nightly-YN1R20.desktop
+application/x-extension-xhtml=userapp-Nightly-YN1R20.desktop
+application/x-extension-xht=userapp-Nightly-YN1R20.desktop

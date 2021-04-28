@@ -1,0 +1,220 @@
+[settings]
+bg = ${xrdb:color0}
+bg2 = #383c44
+red = ${xrdb:color1}
+green = ${xrdb:color2}
+yellow = ${xrdb:color3}
+blue = ${xrdb:color4}
+magenta = ${xrdb:color5}
+cyan = ${xrdb:color6}
+white = ${xrdb:color7}
+
+[bar/main]
+bottom = false
+fixed-center = true
+width = 100%
+height = 30
+offset-x = 0
+offset-y = 0
+underline-size = 4
+overline-size = 4
+background = ${settings.bg}
+foreground = ${settings.blue}
+padding = 1
+module-margin = 0
+font-0 = Iosevka Nerd Font:size=12;2
+font-1 = WeatherIcons:size=11;2
+font-2 = MaterialIcons:size=12;2
+font-3 = Iosevka Nerd Font:size=13;3
+modules-left = sep1 i3 sep2 sep1 playerctl sep2
+modules-center = sep1 weather sep2
+modules-right = sep1 vol sep2 sep1 bness sep2 sep1 batt sep2 sep1 wlan sep2 sep1 date sep2
+locale = hu_HU.UTF-8
+
+[module/i3]
+type = internal/i3
+
+format = <label-state>
+label-focused = %icon%
+label-focused-foreground = ${settings.magenta}
+label-focused-background = ${settings.bg2}
+label-focused-overline = ${settings.bg}
+label-focused-underline = ${settings.bg}
+label-focused-padding = 1
+
+label-unfocused = %icon%
+label-unfocused-foreground = ${settings.blue}
+label-unfocused-background = ${settings.bg2}
+label-unfocused-overline = ${settings.bg}
+label-unfocused-underline = ${settings.bg}
+label-unfocused-padding = 1
+
+label-urgent = %icon%
+label-urgent-foreground = ${settings.red}
+label-urgent-background = ${settings.bg2}
+label-urgent-overline = ${settings.bg}
+label-urgent-underline = ${settings.bg}
+label-urgent-padding = 1
+
+label-visible = %icon%
+label-visible-foreground = ${settings.yellow}
+label-visible-background = ${settings.bg2}
+label-visible-overline = ${settings.bg}
+label-visible-underline = ${settings.bg}
+label-visible-padding = 1
+
+ws-icon-0 = 1;
+ws-icon-1 = 2;
+ws-icon-2 = 3;ﭮ
+ws-icon-3 = 4;
+ws-icon-4 = 5;
+ws-icon-5 = 6;
+ws-icon-6 = 7;
+ws-icon-7 = 8;
+ws-icon-8 = 9;
+ws-icon-9 = 10;
+
+[module/playerctl]
+type = custom/script
+exec = ~/.scripts/player.sh
+format = <label>
+tail = true
+interval = 1
+#format-padding = 1
+format-prefix = " "
+format-background = ${settings.bg2}
+format-foreground = ${settings.green}
+format-underline = ${settings.bg}
+format-overline = ${settings.bg}
+
+[module/bness]
+type = internal/backlight
+card = intel_backlight
+enable-scroll = true
+format = <ramp> <label>
+label = %percentage%%
+#format-padding = 1
+ramp-0 = 
+ramp-1 = 
+ramp-2 = 
+ramp-3 = 
+ramp-4 = 
+format-background = ${settings.bg2}
+format-foreground = ${settings.blue}
+format-underline = ${settings.bg}
+format-overline = ${settings.bg}
+
+[module/vol]
+type = internal/pulseaudio
+format-volume = <ramp-volume> <label-volume>
+format-muted = <label-muted>
+label-volume = %percentage%%
+label-muted = ﱝ Muted
+ramp-volume-0 = 奄
+ramp-volume-1 = 奔
+ramp-volume-2 = 墳
+click-right = pavucontrol
+format-volume-background = ${settings.bg2}
+format-volume-foreground = ${settings.yellow}
+format-volume-underline = ${settings.bg}
+format-volume-overline = ${settings.bg}
+#format-volume-padding = 1
+format-muted-background = ${settings.bg2}
+format-muted-foreground = ${settings.red}
+format-muted-underline = ${settings.bg}
+format-muted-overline = ${settings.bg}
+#format-muted-padding = 1
+
+[module/wlan]
+type = internal/network
+interface = wlan0
+format-connected = <label-connected>
+label-connected = %essid%
+format-connected-prefix = "直 "
+format-disconnected = <label-disconnected>
+label-disconnected = "Disconnected"
+format-disconnected-prefix = "睊 "
+format-connected-foreground = ${settings.magenta}
+format-connected-background = ${settings.bg2}
+format-connected-underline = ${settings.bg}
+format-connected-overline = ${settings.bg}
+#format-connected-padding = 1
+format-disconnected-foreground = ${settings.magenta}
+format-disconnected-background = ${settings.bg2}
+format-disconnected-underline = ${settings.bg}
+format-disconnected-overline = ${settings.bg}
+#format-disconnected-padding = 1
+
+[module/date]
+type = internal/date
+date =  %H:%M
+date-alt =  %A, %d %B %Y
+format-foreground = ${settings.yellow}
+format-background = ${settings.bg2}
+format-underline = ${settings.bg}
+format-overline = ${settings.bg}
+#format-padding = 1
+
+[module/batt]
+type = internal/battery
+battery = BAT0
+adapter = AC0
+format-charging = <animation-charging> <label-charging>
+format-discharging = <ramp-capacity> <label-discharging>
+format-full = <label-full>
+label-charging = %percentage%%
+label-discharging = %percentage%%
+label-full =  100%
+ramp-capacity-0 = 
+ramp-capacity-1 = 
+ramp-capacity-2 = 
+ramp-capacity-3 = 
+ramp-capacity-4 = 
+animation-charging-0 = 
+animation-charging-1 = 
+animation-charging-2 = 
+animation-charging-3 = 
+animation-charging-4 = 
+animation-charging-framerate = 750
+format-charging-background = ${settings.bg2}
+format-charging-foreground = ${settings.green}
+format-charging-underline = ${settings.bg}
+format-charging-overline = ${settings.bg}
+#format-charging-padding = 1
+format-discharging-background = ${settings.bg2}
+format-discharging-foreground = ${settings.green}
+format-discharging-underline = ${settings.bg}
+format-discharging-overline = ${settings.bg}
+#format-discharging-padding = 1
+format-full-background = ${settings.bg2}
+format-full-foreground = ${settings.green}
+format-full-underline = ${settings.bg}
+format-full-overline = ${settings.bg}
+#format-full-padding = 1
+
+[module/weather]
+type = custom/script
+exec = busctl --user -j get-property io.ntfd /weather openweathermap.strings RenderedTemplate | jq -r .data
+interval = 60
+label-font = 2
+format-background = ${settings.bg2}
+format-foreground = ${settings.yellow}
+format-underline = ${settings.bg}
+format-overline = ${settings.bg}
+#format-padding = 1
+
+[module/sep1]
+type = custom/text
+content-font = 4
+content = " "
+content-foreground = ${settings.bg2}
+content-underline = ${settings.bg}
+content-overline = ${settings.bg}
+
+[module/sep2]
+type = custom/text
+content-foreground = ${settings.bg2}
+content-font = 4
+content = " "
+content-underline = ${settings.bg}
+content-overline = ${settings.bg}
