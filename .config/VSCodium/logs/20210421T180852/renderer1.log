@@ -1,9 +1,0 @@
-[2021-04-21 18:08:58.342] [renderer1] [error] Error: Unable to read file '/home/steve/index.html' (Error: Unable to resolve non-existing file '/home/steve/index.html')
-    at s (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:9:490)
-    at n.handleSetInputError (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2061:75813)
-    at n.handleSetInputError (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2061:78486)
-    at n.setInput (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2061:75492)
-    at async c.doSetInput (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1608:10549)
-    at async c.openEditor (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:1608:9103)
-    at async file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2406:15803
-    at async Ii.restoreEditors (file:///usr/share/vscodium-bin/resources/app/out/vs/workbench/workbench.desktop.main.js:2406:8883)
