@@ -1,0 +1,10 @@
+# GIMP gimp-paintbrush-tool options
+
+(foreground (color-rgb 0.16470588235294117 0.13725490196078433 0.19215686274509805))
+(brush "2. Hardness 100")
+(dynamics "Dynamics Off")
+(gradient "Előtérből háttérbe (RGB)")
+(palette "Színelőzmények")
+(brush-size 23)
+
+# end of gimp-paintbrush-tool options

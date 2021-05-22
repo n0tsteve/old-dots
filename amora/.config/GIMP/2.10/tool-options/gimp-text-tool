@@ -1,0 +1,7 @@
+# GIMP gimp-text-tool options
+
+(foreground (color-rgb 0.16470588235294117 0.13725490196078433 0.19215686274509805))
+(palette "Színelőzmények")
+(font "Sans-serif")
+
+# end of gimp-text-tool options

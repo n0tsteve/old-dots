@@ -1,0 +1,17 @@
+insidecolor=00000000
+ringcolor=dedbebee
+keyhlcolor=ed3f7fff
+bshlcolor=9985d1ff
+separatorcolor=00000000
+insidevercolor=00000000
+insidewrongcolor=00000000
+ringvercolor=a2baa8ff
+ringwrongcolor=ed3f7fff
+verifcolor=a2baa8ff
+timecolor=edebf7ff
+datecolor=dedbebff
+loginbox=00000066
+font="iosevka"
+# locktext='Type password to unlock...'
+locktext=$(date "+%A, %B %d %Y")
+wallpaper_cmd='feh --bg-fill --no-fehbg'
