@@ -1,0 +1,27 @@
+{
+    "wallpaper": "/home/steve/K\u00e9pek/Wallpapers/amora.jpg",
+    "alpha": "90",
+    "special": {
+        "background": "#2a2331",
+        "foreground": "#dedbeb",
+        "cursor": "#dedbeb"
+    },
+    "colors": {
+        "color0": "#28222d",
+        "color1": "#ed3f7f",
+        "color2": "#a2baa8",
+        "color3": "#eacac0",
+        "color4": "#9985d1",
+        "color5": "#e68ac1",
+        "color6": "#aabae7",
+        "color7": "#dedbeb",
+        "color8": "#302838",
+        "color9": "#fb5c8e",
+        "color10": "#bfd1c3",
+        "color11": "#f0ddd8",
+        "color12": "#b4a4de",
+        "color13": "#edabd2",
+        "color14": "#c4d1f5",
+        "color15": "#edebf7"
+    }
+}

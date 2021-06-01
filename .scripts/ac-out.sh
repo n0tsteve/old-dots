@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 level=$(cat /sys/class/power_supply/BAT0/capacity)
 state=$(acpi | awk 'END {print $(NF-1), $NF}')
+canberra-gtk-play -i power-unplug
 if [ $level -ge 90 ]; then
 	dunstify "Charger Unplugged: $level%" "$state" --replace=26 --raw_icon=/usr/share/icons/Papirus-Dark/symbolic/status/battery-level-90-symbolic.svg
 elif [ $level -ge 80 ]; then
